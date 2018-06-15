@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>The Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\riggs\codingBootcamp\homework\homework 3\Psychic-Game\assets\css\style.css"/>
+    <script src="C:\Users\riggs\codingBootcamp\homework\homework 3\Psychic-Game\assets\javascript\game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Shadows+Into+Light" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <!-- Text: Guess what letter I am thinking of. 
+        Wins: number of times user guesses correctly.
+        Losses: number of times the user failed to guess the letter correctly. 
+        Guesses Left: # of guesses left.
+        Guesses so far: the specific letters the user typed. Display until user wins or loses.
+        When player wins, increase the wins counter and start game over. (without refreshing the page)
+        When the player loses, increase the losses counter and start the game over. 
+    -->
+
+    <div class="row">
+        <div class="col-md-12" id="psychic">
+            <p>
+                <h1>The Psychic Game</h1>
+            </p>
+
+            <p>
+                <h2>Guess what letter I am thinking of</h2>
+            </p>
+
+            <p>
+                <h3>Wins: 0</h3>
+            </p>
+
+            <p>
+                <h3>Losses: 0</h3>
+            </p>
+
+            <p>
+                <h3>Number of guesses left: 10</h3>
+            </p>
+
+            <p>
+                <h3>Your guesses so far:</h3>
+            </p>
+        </div>    
+    </div>
+
+
 </body>
+
 </html>

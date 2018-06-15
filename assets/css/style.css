@@ -1,0 +1,21 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: radial-gradient( darkgreen 5%, blue 15%, darkgrey 60%);
+  
+    
+}
+
+h1 {
+    color: darkgreen;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+h3 {
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
